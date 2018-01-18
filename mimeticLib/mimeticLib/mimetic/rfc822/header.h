@@ -62,6 +62,10 @@ public:
     const std::string& subject() const;
     std::string& subject();
     void subject(const std::string&);
+    
+    const std::string& importance() const;
+    std::string& importance();
+    void importance(const std::string&);
 
     const AddressList& replyto() const;
     AddressList& replyto();
