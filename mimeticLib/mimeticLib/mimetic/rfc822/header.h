@@ -66,6 +66,10 @@ public:
     const std::string& importance() const;
     std::string& importance();
     void importance(const std::string&);
+    
+    const std::string& contentId() const;
+    std::string& contentId();
+    void contentId(const std::string&);
 
     const AddressList& replyto() const;
     AddressList& replyto();

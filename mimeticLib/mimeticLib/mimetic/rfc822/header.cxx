@@ -135,6 +135,24 @@ void Rfc822Header::importance(const std::string& s)
 {
     setField("Importance", StringFieldValue(s));
 }
+    
+// Importance
+const std::string& Rfc822Header::contentId() const
+{
+    const StringFieldValue& fv = getField<StringFieldValue>("Content-ID");
+    return fv.ref();
+}
+    
+std::string& Rfc822Header::contentId()
+{
+    StringFieldValue& fv = getField<StringFieldValue>("Content-ID");
+    return fv.ref();
+}
+    
+void Rfc822Header::contentId(const std::string& s)
+{
+    setField("Content-ID", StringFieldValue(s));
+}
 
 // To:
 const AddressList& Rfc822Header::to() const
