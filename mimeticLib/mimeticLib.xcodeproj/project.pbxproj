@@ -39,9 +39,50 @@
 		FE79A7561FC46CFD00DB4565 /* contenttransferencoding.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7331FC46CFD00DB4565 /* contenttransferencoding.cxx */; };
 		FE79A7571FC46CFD00DB4565 /* utils.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7351FC46CFD00DB4565 /* utils.cxx */; };
 		FE79A7581FC46CFD00DB4565 /* contentdisposition.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7371FC46CFD00DB4565 /* contentdisposition.cxx */; };
+		FE7DD8A220C02D6000D31054 /* body.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7121FC46CFD00DB4565 /* body.cxx */; };
+		FE7DD8A320C02D6000D31054 /* fieldparam.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6DE1FC46CFD00DB4565 /* fieldparam.cxx */; };
+		FE7DD8A420C02D6000D31054 /* message.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7301FC46CFD00DB4565 /* message.cxx */; };
+		FE7DD8A520C02D6000D31054 /* file_iterator.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A72B1FC46CFD00DB4565 /* file_iterator.cxx */; };
+		FE7DD8A620C02D6000D31054 /* base64.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7071FC46CFD00DB4565 /* base64.cxx */; };
+		FE7DD8A720C02D6000D31054 /* utils.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7351FC46CFD00DB4565 /* utils.cxx */; };
+		FE7DD8A820C02D6000D31054 /* address.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6EC1FC46CFD00DB4565 /* address.cxx */; };
+		FE7DD8A920C02D6000D31054 /* contentdisposition.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7371FC46CFD00DB4565 /* contentdisposition.cxx */; };
+		FE7DD8AA20C02D6000D31054 /* mimeentity.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6D61FC46CFD00DB4565 /* mimeentity.cxx */; };
+		FE7DD8AB20C02D6000D31054 /* mmfile.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7291FC46CFD00DB4565 /* mmfile.cxx */; };
+		FE7DD8AC20C02D6000D31054 /* contentdescription.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6E01FC46CFD00DB4565 /* contentdescription.cxx */; };
+		FE7DD8AD20C02D6000D31054 /* header.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A71C1FC46CFD00DB4565 /* header.cxx */; };
+		FE7DD8AE20C02D6000D31054 /* mailboxlist.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6F31FC46CFD00DB4565 /* mailboxlist.cxx */; };
+		FE7DD8AF20C02D6000D31054 /* contenttransferencoding.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7331FC46CFD00DB4565 /* contenttransferencoding.cxx */; };
+		FE7DD8B020C02D6000D31054 /* stdfile.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7241FC46CFD00DB4565 /* stdfile.cxx */; };
+		FE7DD8B120C02D6000D31054 /* utils.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A72D1FC46CFD00DB4565 /* utils.cxx */; };
+		FE7DD8B220C02D6000D31054 /* contentid.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7111FC46CFD00DB4565 /* contentid.cxx */; };
+		FE7DD8B320C02D6000D31054 /* contenttype.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A71E1FC46CFD00DB4565 /* contenttype.cxx */; };
+		FE7DD8B420C02D6000D31054 /* fileop.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7221FC46CFD00DB4565 /* fileop.cxx */; };
+		FE7DD8B520C02D6000D31054 /* mailbox.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6F01FC46CFD00DB4565 /* mailbox.cxx */; };
+		FE7DD8B620C02D6000D31054 /* addresslist.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6F71FC46CFD00DB4565 /* addresslist.cxx */; };
+		FE7DD8B720C02D6000D31054 /* mimeversion.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7191FC46CFD00DB4565 /* mimeversion.cxx */; };
+		FE7DD8B820C02D6000D31054 /* datetime.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6E51FC46CFD00DB4565 /* datetime.cxx */; };
+		FE7DD8B920C02D6000D31054 /* qp.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A7031FC46CFD00DB4565 /* qp.cxx */; };
+		FE7DD8BA20C02D6000D31054 /* version.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A71D1FC46CFD00DB4565 /* version.cxx */; };
+		FE7DD8BB20C02D6000D31054 /* group.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6E41FC46CFD00DB4565 /* group.cxx */; };
+		FE7DD8BC20C02D6000D31054 /* strutils.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6D51FC46CFD00DB4565 /* strutils.cxx */; };
+		FE7DD8BD20C02D6000D31054 /* field.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6E81FC46CFD00DB4565 /* field.cxx */; };
+		FE7DD8BE20C02D6000D31054 /* header.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6F61FC46CFD00DB4565 /* header.cxx */; };
+		FE7DD8BF20C02D6000D31054 /* fieldvalue.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6E31FC46CFD00DB4565 /* fieldvalue.cxx */; };
+		FE7DD8C020C02D6000D31054 /* messageid.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6F21FC46CFD00DB4565 /* messageid.cxx */; };
+		FE7DD8C120C02D6000D31054 /* message.cxx in Sources */ = {isa = PBXBuildFile; fileRef = FE79A6F81FC46CFD00DB4565 /* message.cxx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		FE7DD8C320C02D6000D31054 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FECC4FF81FC32D1200E8FCCC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,10 +189,18 @@
 		FE79A7371FC46CFD00DB4565 /* contentdisposition.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = contentdisposition.cxx; sourceTree = "<group>"; };
 		FE79A7381FC46CFD00DB4565 /* mimeversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mimeversion.h; sourceTree = "<group>"; };
 		FE79A7591FC4767F00DB4565 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		FE7DD8C720C02D6000D31054 /* libmimeticLib_MailRiver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmimeticLib_MailRiver.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECC4FFA1FC32D1200E8FCCC /* libmimeticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmimeticLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FE7DD8C220C02D6000D31054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FECC4FF71FC32D1200E8FCCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,6 +356,7 @@
 			isa = PBXGroup;
 			children = (
 				FECC4FFA1FC32D1200E8FCCC /* libmimeticLib.a */,
+				FE7DD8C720C02D6000D31054 /* libmimeticLib_MailRiver.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -322,6 +372,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FE7DD8A020C02D6000D31054 /* mimeticLib_MailRiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7DD8C420C02D6000D31054 /* Build configuration list for PBXNativeTarget "mimeticLib_MailRiver" */;
+			buildPhases = (
+				FE7DD8A120C02D6000D31054 /* Sources */,
+				FE7DD8C220C02D6000D31054 /* Frameworks */,
+				FE7DD8C320C02D6000D31054 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mimeticLib_MailRiver;
+			productName = mimeticLib;
+			productReference = FE7DD8C720C02D6000D31054 /* libmimeticLib_MailRiver.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		FECC4FF91FC32D1200E8FCCC /* mimeticLib */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FECC50031FC32D1200E8FCCC /* Build configuration list for PBXNativeTarget "mimeticLib" */;
@@ -348,6 +415,9 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "David Grigoryan";
 				TargetAttributes = {
+					FE7DD8A020C02D6000D31054 = {
+						ProvisioningStyle = Automatic;
+					};
 					FECC4FF91FC32D1200E8FCCC = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
@@ -367,11 +437,51 @@
 			projectRoot = "";
 			targets = (
 				FECC4FF91FC32D1200E8FCCC /* mimeticLib */,
+				FE7DD8A020C02D6000D31054 /* mimeticLib_MailRiver */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FE7DD8A120C02D6000D31054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7DD8A220C02D6000D31054 /* body.cxx in Sources */,
+				FE7DD8A320C02D6000D31054 /* fieldparam.cxx in Sources */,
+				FE7DD8A420C02D6000D31054 /* message.cxx in Sources */,
+				FE7DD8A520C02D6000D31054 /* file_iterator.cxx in Sources */,
+				FE7DD8A620C02D6000D31054 /* base64.cxx in Sources */,
+				FE7DD8A720C02D6000D31054 /* utils.cxx in Sources */,
+				FE7DD8A820C02D6000D31054 /* address.cxx in Sources */,
+				FE7DD8A920C02D6000D31054 /* contentdisposition.cxx in Sources */,
+				FE7DD8AA20C02D6000D31054 /* mimeentity.cxx in Sources */,
+				FE7DD8AB20C02D6000D31054 /* mmfile.cxx in Sources */,
+				FE7DD8AC20C02D6000D31054 /* contentdescription.cxx in Sources */,
+				FE7DD8AD20C02D6000D31054 /* header.cxx in Sources */,
+				FE7DD8AE20C02D6000D31054 /* mailboxlist.cxx in Sources */,
+				FE7DD8AF20C02D6000D31054 /* contenttransferencoding.cxx in Sources */,
+				FE7DD8B020C02D6000D31054 /* stdfile.cxx in Sources */,
+				FE7DD8B120C02D6000D31054 /* utils.cxx in Sources */,
+				FE7DD8B220C02D6000D31054 /* contentid.cxx in Sources */,
+				FE7DD8B320C02D6000D31054 /* contenttype.cxx in Sources */,
+				FE7DD8B420C02D6000D31054 /* fileop.cxx in Sources */,
+				FE7DD8B520C02D6000D31054 /* mailbox.cxx in Sources */,
+				FE7DD8B620C02D6000D31054 /* addresslist.cxx in Sources */,
+				FE7DD8B720C02D6000D31054 /* mimeversion.cxx in Sources */,
+				FE7DD8B820C02D6000D31054 /* datetime.cxx in Sources */,
+				FE7DD8B920C02D6000D31054 /* qp.cxx in Sources */,
+				FE7DD8BA20C02D6000D31054 /* version.cxx in Sources */,
+				FE7DD8BB20C02D6000D31054 /* group.cxx in Sources */,
+				FE7DD8BC20C02D6000D31054 /* strutils.cxx in Sources */,
+				FE7DD8BD20C02D6000D31054 /* field.cxx in Sources */,
+				FE7DD8BE20C02D6000D31054 /* header.cxx in Sources */,
+				FE7DD8BF20C02D6000D31054 /* fieldvalue.cxx in Sources */,
+				FE7DD8C020C02D6000D31054 /* messageid.cxx in Sources */,
+				FE7DD8C120C02D6000D31054 /* message.cxx in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FECC4FF61FC32D1200E8FCCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -414,6 +524,64 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		FE7DD8C520C02D6000D31054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					HAVE_UNISTD_H,
+					HAVE_MIMETIC_CONFIG,
+				);
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/mimeticLib";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE7DD8C620C02D6000D31054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_UNISTD_H,
+					HAVE_MIMETIC_CONFIG,
+				);
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/mimeticLib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		FECC50011FC32D1200E8FCCC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -587,6 +755,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FE7DD8C420C02D6000D31054 /* Build configuration list for PBXNativeTarget "mimeticLib_MailRiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7DD8C520C02D6000D31054 /* Debug */,
+				FE7DD8C620C02D6000D31054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FECC4FF51FC32D1200E8FCCC /* Build configuration list for PBXProject "mimeticLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
